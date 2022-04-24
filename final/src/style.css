@@ -1,0 +1,59 @@
+/* 구글폰트 - Fredoka */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Nanum+Pen+Script&display=swap');
+
+
+
+/* Google Web Fonts CDN */
+
+/* font-family: 'Noto Sans KR', sans-serif */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+/* East Sea Dokdo Designed by YoonDesign Inc */
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+
+
+body{
+    font-family: 'East Sea Dokdo', cursive;
+    color: whitesmoke;
+    background-size: cover;
+}
+
+
+.clock {
+    font-size: 150px;
+    position: absolute;;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden {
+    display:none;
+}
+
+.login {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 0%;
+}
+
+.list {
+    font-size: 20px;
+    width: 300px; 
+    
+
+
+    
+    
+    /* transform: translate(-50%, -50%); */
+}
+
+.weather {
+    font-size: 25px;
+    text-align: left;
+    margin-right: 0%;
+}

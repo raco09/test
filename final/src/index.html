@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> Assignment # 10 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" >
+    <!-- clock part -->
+    <div>
+        <span id="clockSpan" class="clock">00:00</span>
+    </div>
+
+    <!-- login part -->
+    <div class="login">
+        <form id="loginForm">
+            <input id="loginInput" class="hidden" type="text" placeholder="별명을 입력해주십시오 . . .">
+        </form>
+        <h2 id="greeting" class="hidden"></h2>
+    </div>
+
+    <!-- weather & Location infor part -->
+    <div class="weather">
+        <span id="weather_location"></span><br>
+        <span id="weather_weather"></span>
+    </div><br><br><br>
+
+    <!-- toDoList part -->
+    <div class="list">
+        <form id="listForm">
+            <input id="listInput" placeholder="할일을 입력해 주십시오 . . .">
+        </form>
+        <ol id="listOl"></ol>
+    </div>
+
+
+    <script src="../js/getBackgroundImage.js"></script>
+    <script src="../js/getClock.js"></script>
+    <script src="../js/getLogin&Weather.js"></script>
+    <script src="../js/getToDoList.js"></script>
+    
+    
+
+</body>
+</html>
